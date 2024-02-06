@@ -1,5 +1,3 @@
-"use client";
-
 import { manufacturers } from "@/constants";
 import { SearchManufacturerProps } from "@/types";
 import { Combobox, Transition } from "@headlessui/react";

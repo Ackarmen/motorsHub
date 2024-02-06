@@ -1,5 +1,3 @@
-"use client";
-
 import { CarProps } from "@/types";
 import { generateCarImageUrl } from "@/utils";
 import { Dialog, Transition } from "@headlessui/react";

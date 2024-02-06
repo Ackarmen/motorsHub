@@ -1,8 +1,4 @@
-import CarCard from "@/components/CarCard";
-import CustomFilter from "@/components/CustomFilter";
-import Hero from "@/components/Hero";
-import SearchBar from "@/components/SearchBar";
-import ShowMore from "@/components/ShowMore";
+import { CarCard, CustomFilter, Hero, SearchBar, ShowMore } from "@/components";
 import { fuels, yearsOfProduction } from "@/constants";
 import { HomeProps } from "@/types";
 import { fetchCars } from "@/utils";
