@@ -99,5 +99,3 @@ export const footerLinks = [
     ],
   },
 ];
-
-export const rapidApiKey = process.env.RAPID_API_KEY;
