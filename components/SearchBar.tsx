@@ -76,7 +76,7 @@ function SearchBar() {
         <input
           type="text"
           name="model"
-          placeholder="Tiguan"
+          placeholder="Tiguan..."
           value={model}
           onChange={(event) => setModel(event.target.value)}
           className="searchbar__input"
