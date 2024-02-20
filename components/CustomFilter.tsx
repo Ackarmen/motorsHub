@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import { CustomFilterProps } from "@/types";
-import { updateSearchParams } from "@/utils";
-import { Listbox, Transition } from "@headlessui/react";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
-import { Fragment, useState } from "react";
+import { CustomFilterProps } from '@/types';
+import { updateSearchParams } from '@/utils';
+import { Listbox, Transition } from '@headlessui/react';
+import Image from 'next/image';
+import { useRouter } from 'next/navigation';
+import { Fragment, useState } from 'react';
 
 function CustomFilter({ title, options }: CustomFilterProps) {
   const [selected, setSelected] = useState(options[0]);
@@ -50,14 +50,14 @@ function CustomFilter({ title, options }: CustomFilterProps) {
                   value={option}
                   className={({ active }) =>
                     `relative cursor-default select-none py-2 px-4 ${
-                      active ? "bg-primary-blue text-white" : "text-gray-900"
+                      active ? 'bg-primary-blue text-white' : 'text-gray-900'
                     }`
                   }
                 >
                   {({ selected }) => (
                     <span
                       className={`block truncate ${
-                        selected ? "font-medium" : "font-normal"
+                        selected ? 'font-medium' : 'font-normal'
                       }`}
                     >
                       {option.title}
